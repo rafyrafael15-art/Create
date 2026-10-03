@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "discord-bridge",
+  "version": "${version}",
+  "name": "Discord Bridge",
+  "description": "Meteor Client addon: bridges Minecraft chat and a Discord channel.",
+  "authors": ["You"],
+  "contact": {},
+  "license": "CC0-1.0",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": ["com.example.discordbridge.DiscordBridgeAddon"]
+  },
+  "custom": {
+    "meteor-client:color": "88,101,242"
+  },
+  "depends": {
+    "java": ">=${jdk_version}",
+    "fabricloader": ">=0.19.2",
+    "minecraft": "${minecraft_version}",
+    "meteor-client": "*"
+  }
+}
